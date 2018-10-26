@@ -1,0 +1,22 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "CV of Mena Lisa Jacobs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nertro/CV.git"
+  },
+  "author": "Mena Lisa Jacobs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nertro/CV/issues"
+  },
+  "homepage": "https://github.com/nertro/CV#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
