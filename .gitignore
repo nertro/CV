@@ -14,6 +14,10 @@ Icon
 /site/cache/*
 !/site/cache/index.html
 
+# Gulp
+# ----------------
+/node_modules/
+
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
 # -------------SECURITY-------------
