@@ -1,0 +1,16 @@
+//Spaces
+$spaces: (
+    xs: 10px,
+    sm: 20px,
+    md: 30px,
+    lg: 40px,
+    xl: 50px,
+) !default;
+
+@function space($key) {
+    @if (map-has-key($spaces, $key)) {
+      @return map-get($spaces, $key);
+    } @else {
+      @return $key;
+    }
+}
