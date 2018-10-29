@@ -1,0 +1,20 @@
+body {
+    background-color: $color-grey;
+    color: $color-black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.wrapper {
+    width: 100%;
+    background-color: $color-white;
+    padding-left: space(sm);
+    $padding-right: space(sm);
+
+    @include min-mq($screen-lg) {
+        width: 1280px;
+        margin: auto;
+        padding-left: space(xl);
+        $padding-right: space(xl);
+    }
+}

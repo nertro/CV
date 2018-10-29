@@ -2,9 +2,9 @@
 $spaces: (
     xs: 10px,
     sm: 20px,
-    md: 30px,
-    lg: 40px,
-    xl: 50px,
+    md: 40px,
+    lg: 80px,
+    xl: 160px,
 ) !default;
 
 @function space($key) {

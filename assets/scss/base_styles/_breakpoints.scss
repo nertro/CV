@@ -1,0 +1,8 @@
+$screen-lg: 1300px;
+$screen-m: 640px;
+
+@mixin min-mq($min-width) {
+  @media (min-width: $min-width){
+    @content;
+  }
+}

@@ -61,3 +61,19 @@ table {
 .subline {
   font-size: 24px;
   font-weight: lighter; }
+
+body {
+  background-color: #E5E5E5;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px; }
+
+.wrapper {
+  width: 100%;
+  background-color: #fff;
+  padding-left: 20px; }
+  @media (min-width: 1300px) {
+    .wrapper {
+      width: 1280px;
+      margin: auto;
+      padding-left: 160px; } }

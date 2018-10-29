@@ -1,4 +1,6 @@
-@import '_reset';
-@import '_colors';
-@import '_spaces';
-@import '_fontstyles';
+@import 'base_styles/_reset';
+@import 'base_styles/_colors';
+@import 'base_styles/_spaces';
+@import 'base_styles/_fontstyles';
+@import 'base_styles/_breakpoints';
+@import 'base_styles/_base';
