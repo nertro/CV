@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Sacramento");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,3 +45,19 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+.main-healdine {
+  font-family: 'Sacramento', cursive;
+  font-size: 96px; }
+
+.medium-headline {
+  font-size: 36px;
+  font-weight: bold; }
+
+.small-headline {
+  font-size: 24px;
+  font-weight: bold; }
+
+.subline {
+  font-size: 24px;
+  font-weight: lighter; }
