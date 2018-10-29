@@ -70,10 +70,8 @@ body {
 
 .wrapper {
   width: 100%;
-  background-color: #fff;
-  padding-left: 20px; }
+  background-color: #fff; }
   @media (min-width: 1300px) {
     .wrapper {
       width: 1280px;
-      margin: auto;
-      padding-left: 160px; } }
+      margin: auto; } }
