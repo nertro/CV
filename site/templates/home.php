@@ -1,13 +1,13 @@
 <div class="wrapper">
-<?php
+  <?php
 
-snippet('header');
+   snippet('header');
 
-foreach($pages->visible() as $section) {
-  snippet($section->uid(), array('data' => $section));
-}
+    foreach($pages->visible() as $section) {
+     snippet($section->uid(), array('data' => $section));
+    }
 
-snippet('footer');
+    snippet('footer');
 
-?>
+  ?>
 </div>

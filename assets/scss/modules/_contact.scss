@@ -1,0 +1,26 @@
+.m-contact {
+    background-color: $color-white;
+    border-radius: 10px;
+    padding: space(xs);
+
+    @include min-mq($screen-m) {
+        padding: space(sm);
+    }
+
+    &__title {
+        color: $color-dark-grey;
+        padding-right: space(xs);
+
+        @include min-mq($screen-m) {
+            padding-right: space(md);
+        }
+
+        @include min-mq($screen-lg) {
+            padding-right: space(lg);
+        }
+    }
+
+    &__data {
+        text-align: right;
+    }
+}

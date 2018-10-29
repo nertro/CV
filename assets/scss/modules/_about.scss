@@ -1,0 +1,12 @@
+.m-about {
+    background-color: $color-white;
+    margin-top: space(sm);
+    border-radius: 10px;
+    padding: space(xs);
+
+    @include min-mq($screen-m) {
+        width: 405px;
+        padding: space(md);
+        margin-bottom: space(md);
+    }
+}

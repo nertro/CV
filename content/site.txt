@@ -1,4 +1,4 @@
-Title: Mena Jacobs
+Title: Mena Lisa Jacobs
 
 ----
 
@@ -11,3 +11,7 @@ Description: This is Kirby's Starterkit.
 ----
 
 Copyright: © 2018–(date: Year) Mena Jacobs
+
+----
+
+Subtitle: Frontend- Game Development, Mode Design

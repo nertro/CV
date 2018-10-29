@@ -1,0 +1,22 @@
+.s-intro {
+    background-image: url('../images/Group 5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: space(sm);
+
+    @include min-mq($screen-m){
+        background-size: contain;
+        padding: space(md);
+        padding-left: space(xl);
+        padding-right: space(lg);
+    }
+
+    &__content {
+        @include min-mq(890px){
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+    }
+}

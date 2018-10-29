@@ -1,6 +1,11 @@
 @import 'base_styles/_reset';
 @import 'base_styles/_colors';
 @import 'base_styles/_spaces';
-@import 'base_styles/_fontstyles';
 @import 'base_styles/_breakpoints';
 @import 'base_styles/_base';
+@import 'base_styles/_fontstyles';
+
+@import 'snippets/_intro';
+
+@import 'modules/_about';
+@import 'modules/_contact';

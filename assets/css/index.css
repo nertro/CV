@@ -46,27 +46,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.main-healdine {
-  font-family: 'Sacramento', cursive;
-  font-size: 96px; }
-
-.medium-headline {
-  font-size: 36px;
-  font-weight: bold; }
-
-.small-headline {
-  font-size: 24px;
-  font-weight: bold; }
-
-.subline {
-  font-size: 24px;
-  font-weight: lighter; }
-
 body {
   background-color: #E5E5E5;
   color: #000;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+  line-height: 29px; }
+
+p + p {
+  margin-top: 20px; }
 
 .wrapper {
   width: 100%;
@@ -75,3 +63,78 @@ body {
     .wrapper {
       width: 1280px;
       margin: auto; } }
+
+.main-healdine {
+  font-family: 'Sacramento', cursive;
+  font-size: 48px;
+  line-height: 60px; }
+  @media (min-width: 640px) {
+    .main-healdine {
+      font-size: 96px;
+      line-height: 140px; } }
+
+.medium-headline {
+  font-size: 36px;
+  line-height: 49px;
+  font-weight: bold;
+  margin-bottom: 20px; }
+  @media (min-width: 640px) {
+    .medium-headline {
+      margin-bottom: 40px; } }
+
+.small-headline {
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: bold; }
+
+.subline {
+  font-size: 24px;
+  font-weight: lighter; }
+
+.s-intro {
+  background-image: url("../images/Group 5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px; }
+  @media (min-width: 640px) {
+    .s-intro {
+      background-size: contain;
+      padding: 40px;
+      padding-left: 160px;
+      padding-right: 80px; } }
+  @media (min-width: 890px) {
+    .s-intro__content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end; } }
+
+.m-about {
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px; }
+  @media (min-width: 640px) {
+    .m-about {
+      width: 405px;
+      padding: 40px;
+      margin-bottom: 40px; } }
+
+.m-contact {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px; }
+  @media (min-width: 640px) {
+    .m-contact {
+      padding: 20px; } }
+  .m-contact__title {
+    color: #7F7F7F;
+    padding-right: 10px; }
+    @media (min-width: 640px) {
+      .m-contact__title {
+        padding-right: 40px; } }
+    @media (min-width: 1300px) {
+      .m-contact__title {
+        padding-right: 80px; } }
+  .m-contact__data {
+    text-align: right; }

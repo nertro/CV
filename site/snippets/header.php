@@ -13,6 +13,6 @@
 </head>
 <body>
 
-  <header class="wrapper" role="banner">
+  <header>
     <?php snippet('navigation') ?>
   </header>

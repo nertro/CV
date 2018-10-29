@@ -3,6 +3,11 @@ body {
     color: $color-black;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    line-height: 29px;
+}
+
+p + p {
+    margin-top: space(sm);
 }
 
 .wrapper {

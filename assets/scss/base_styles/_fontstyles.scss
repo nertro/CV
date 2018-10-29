@@ -3,16 +3,29 @@
 
 .main-healdine {
     font-family: 'Sacramento', cursive;
-    font-size: 96px;
+    font-size: 48px;
+    line-height: 60px;
+
+    @include min-mq($screen-m) {
+        font-size: 96px;
+        line-height: 140px;
+    }
 }
 
 .medium-headline {
     font-size: 36px;
+    line-height: 49px;
     font-weight: bold;
+    margin-bottom: space(sm);
+
+    @include min-mq($screen-m) {
+        margin-bottom: space(md);
+    }
 }
 
 .small-headline {
     font-size: 24px;
+    line-height: 33px;
     font-weight: bold;
 }
 
